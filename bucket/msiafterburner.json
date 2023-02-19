@@ -37,7 +37,10 @@
             "MSI Afterburner"
         ]
     ],
-    "persist": "Profiles",
+    "persist": [
+        "Profiles",
+        "Plugins"
+        ],
     "checkver": {
         "url": "https://www.guru3d.com/files-details/msi-afterburner-beta-download.html",
         "regex": ">Download\\s+([\\d.]+)\\s+Stable\\s+\\(Final\\)",
